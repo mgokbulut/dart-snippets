@@ -1,0 +1,30 @@
+{
+  "name": "dart-snippets",
+  "version": "1.0.0",
+  "description": "bunch of core snippets for dart language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgokbulut/dart-snippets.git"
+  },
+  "author": "Mert Gokbulut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgokbulut/dart-snippets/issues"
+  },
+  "homepage": "https://github.com/mgokbulut/dart-snippets#readme",
+  "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "dart",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
